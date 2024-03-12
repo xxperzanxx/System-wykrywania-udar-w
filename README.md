@@ -69,27 +69,27 @@ Aplikacja korzysta z wcześniej wytrenowanego modelu Gradient Boosting Classifie
 # Odwzorowania Zmiennych Kategorycznych
 W pliku maps.py znajdują się odwzorowania zmiennych kategorycznych na ich numeryczne odpowiedniki. Te odwzorowania są kluczowe dla poprawnego przetwarzania danych wejściowych przed przewidywaniem udaru przy użyciu modelu uczenia maszynowego. Poniżej przedstawiono krótki opis każdego odwzorowania:
 
-health_map:
+**`health_map:`**
 
 Mapuje oceny zdrowia na liczby, gdzie 'Excellent' to 0, 'Very good' to 1, 'Good' to 2, 'Fair' to 3, a 'Poor' to 4.
 
-race_map:
+**`race_map:`**
 
 Przyporządkowuje grupy etniczne do wartości liczbowych, takie jak 'White' - 0, 'Black' - 1, 'Asian' - 2, 'Other' - 3, 'American Indian/Alaskan Native' - 4, 'Hispanic' - 5.
 
-bool_map:
+**`bool_map:`**
 
 Konwertuje wartości logiczne ('Yes' i 'No') na 1 i 0, odpowiednio.
 
-age_map:
+**`age_map:`**
 
 Przyporządkowuje przedziały wiekowe do wartości liczbowych, np. '18-24' - 0, '25-29' - 1, itd.
 
-sex_map:
+**`sex_map:`**
 
 Konwertuje płeć ('Male' i 'Female') na 1 i 0, odpowiednio.
 
-diabetic_map:
+**`diabetic_map:`**
 
 Mapuje informacje dotyczące cukrzycy na liczby, gdzie 'No' to 0, 'Yes' to 1, 'No, borderline diabetes' to 2, a 'Yes (during pregnancy)' to 3.
 
