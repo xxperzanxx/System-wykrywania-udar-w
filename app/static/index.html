@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwestionariusz Zdrowia</title>
+</head>
+<body>
+
+    <h1>Kwestionariusz Zdrowia</h1>
+
+    <form action="/submit" method="post">
+
+        <label for="HeartDisease">Choroba Serca:</label>
+        <select name="HeartDisease" id="HeartDisease" required>
+            <option value="No">Nie</option>
+            <option value="Yes">Tak</option>
+        </select><br>
+
+        <label for="BMI">BMI:</label>
+        <input type="number" name="BMI" id="BMI" step="0.01" required><br>
+
+        <label for="Smoking">Palenie:</label>
+        <select name="Smoking" id="Smoking" required>
+            <option value="No">Nie</option>
+            <option value="Yes">Tak</option>
+        </select><br>
+
+        <label for="AlcoholDrinking">Spożywanie Alkoholu:</label>
+        <select name="AlcoholDrinking" id="AlcoholDrinking" required>
+            <option value="No">Nie</option>
+            <option value="Yes">Tak</option>
+        </select><br>
+
+        <!-- <label for="Stroke">Udar:</label>
+        <select name="Stroke" id="Stroke" required>
+            <option value="No">Nie</option>
+            <option value="Yes">Tak</option>
+        </select><br> -->
+
+        <label for="PhysicalHealth">Zdrowie Fizyczne:</label>
+        <input type="number" name="PhysicalHealth" id="PhysicalHealth" step="0.01" required><br>
+
+        <label for="MentalHealth">Zdrowie Psychiczne:</label>
+        <input type="number" name="MentalHealth" id="MentalHealth" step="0.01" required><br>
+
+        <label for="DiffWalking">Trudności w Chodzeniu:</label>
+        <select name="DiffWalking" id="DiffWalking" required>
+            <option value="No">Nie</option>
+            <option value="Yes">Tak</option>
+        </select><br>
+
+        <label for="Sex">Płeć:</label>
+        <select name="Sex" id="Sex" required>
+            <option value="Female">Kobieta</option>
+            <option value="Male">Mężczyzna</option>
+        </select><br>
+
+
+        <label for="AgeCategory">Kategoria Wiekowa:</label>
+        <select name="AgeCategory" id="AgeCategory" required>
+            <option value="18-24">18-24</option>
+            <option value="25-29">25-29</option>
+            <option value="30-34">30-34</option>
+            <option value="35-39">35-39</option>
+            <option value="40-44">40-44</option>
+            <option value="45-49">45-49</option>
+            <option value="50-54">50-54</option>
+            <option value="55-59">55-59</option>
+            <option value="60-64">60-64</option>
+            <option value="65-69">65-69</option>
+            <option value="70-74">70-74</option>
+            <option value="75-79">75-79</option>
+            <option value="80 or older">80 lub starszy</option>
+        </select><br>
+
+        <label for="Race">Rasa:</label>
+        <select name="Race" id="Race" required>
+            <option value="American Indian/Alaskan Native">Indianie Amerykańscy/Alascyjscy</option>
+            <option value="Asian">Azjata</option>
+            <option value="Black">Czarnoskóry</option>
+            <option value="Hispanic">Latynoski</option>
+            <option value="Other">Inny</option>
+            <option value="White">Biały</option>
+        </select><br>
+
+        <label for="Diabetic">Cukrzyca:</label>
+        <select name="Diabetic" id="Diabetic" required>
+            <option value="No">Nie</option>
+            <option value="Yes">Tak</option>
+        </select><br>
+
+        <label for="PhysicalActivity">Aktywność Fizyczna:</label>
+        <select name="PhysicalActivity" id="PhysicalActivity" required>
+            <option value="No">Nie</option>
+            <option value="Yes">Tak</option>
+        </select><br>
+
+        <label for="GenHealth">Zdrowie Ogólne:</label>
+        <select name="GenHealth" id="GenHealth" required>
+            <option value="Excellent">Excellent</option>
+            <option value="Very good">Very good</option>
+            <option value="Good">Good</option>
+            <option value="Fair">Fair</option>
+            <option value="Poor">Poor</option>
+        </select><br>
+
+        <label for="SleepTime">Czas Snu (w godzinach):</label>
+        <input type="number" name="SleepTime" id="SleepTime" step="0.1" required><br>
+
+        <label for="Asthma">Astma:</label>
+        <select name="Asthma" id="Asthma" required>
+            <option value="No">Nie</option>
+            <option value="Yes">Tak</option>
+        </select><br>
+
+        <label for="KidneyDisease">Choroba Nerek:</label>
+        <select name="KidneyDisease" id="KidneyDisease" required>
+            <option value="No">Nie</option>
+            <option value="Yes">Tak</option>
+        </select><br>
+
+        <label for="SkinCancer">Rak Skóry:</label>
+        <select name="SkinCancer" id="SkinCancer" required>
+            <option value="No">Nie</option>
+            <option value="Yes">Tak</option>
+        </select><br>
+
+        <input type="submit" value="Wyślij">
+    </form>
+
+</body>
+</html>
