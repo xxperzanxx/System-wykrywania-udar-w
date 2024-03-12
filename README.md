@@ -1,0 +1,1 @@
+# System-wykrywania-udar-w
